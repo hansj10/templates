@@ -35,6 +35,8 @@ To flash the device solder directly to TYWE3S TX, RX, GPIO0, VCC and GND pins (o
 
 ## Configuration
 
+If you configure the ESP while still powered through the serial connection, it will not go to sleep.
+
 _If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration or use the serial message._
 
 You can use 
